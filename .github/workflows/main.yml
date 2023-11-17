@@ -1,5 +1,1 @@
-name: OpenAI Code Generator
-  uses: https://github.com/JuliusHaring/llm-code-gen@main
-  with:
-    descriptions: 'python linting with flake8 and github actions'
-    openai_token: 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
+
