@@ -1,0 +1,1 @@
+const seatingMap = async function(eventId) {\n    const response = await fetch(`seating-map/seats/${eventId}`);\n    if (!response.ok) return;\n    const seats = await response.json();\n    renderSeats(seats);\n};\n\nfunction renderSeats(seats) {\n    // Render logic for seats here\n}\n"}
